@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="root">
+    <!-- Sign Up Page -->
+    <div id="signup-page">
+      <h1>Sign Up</h1>
+      <form id="signup-form">
+        <input type="text" id="name" placeholder="Name"><br><br>
+        <input type="email" id="email" placeholder="Email"><br><br>
+        <input type="password" id="password" placeholder="Password"><br><br>
+        <button type="submit">Sign Up</button>
+      </form>
+      <p id="signup-error" class="error"></p>
+      <p id="signup-success" class="success"></p>
+    </div>
+
+    <!-- Profile Page -->
+    <div id="profile-page">
+      <h1>Profile</h1>
+      <div id="user-details">
+        <p id="name-display"></p>
+        <p id="email-display"></p>
+        <p id="password-display"></p>
+        
+      </div>
+      <button id="logout-button">Logout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
